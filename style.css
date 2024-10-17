@@ -307,6 +307,7 @@ footer {
   }
   .icone_container {
     display: flex;
+    justify-content: center;
     gap: 50px;
   }
   .icone_heading {
