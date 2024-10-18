@@ -59,6 +59,7 @@ section {
   font-weight: 700;
   line-height: 162.5%;
   text-transform: uppercase;
+  transition: 0.4s;
 }
 
 .Pre-order:hover {
@@ -137,7 +138,7 @@ section {
 .gray_div2 {
   width: 255px;
   height: 236px;
-  top: 830px;
+  top: 240px;
   left: -280px;
   gap: 0px;
   border-radius: 20px;
