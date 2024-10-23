@@ -130,6 +130,12 @@ section {
   max-height: 480px;
   border-radius: 20px;
 }
+.Bitmap_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .container_div2 {
   display: flex;
   justify-content: space-between;
@@ -153,9 +159,21 @@ section {
   max-width: 255px;
   max-height: 480px;
 }
+
+.img11 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .img2 {
   max-width: 445px;
   max-height: 480px;
+}
+
+.img22 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .tex_box {
   display: flex;
@@ -257,7 +275,7 @@ footer {
   }
 }
 
-@media (max-width: 840px) and (min-width: 650px) {
+@media (max-width: 840px) {
   .img1 {
     width: 214px;
     height: 320px;
@@ -267,7 +285,20 @@ footer {
     height: 320px;
   }
 }
-@media (max-width: 432px) {
+@media (max-width: 749px) {
+  .images_div {
+    width: 700px;
+  }
+  .img1 {
+    width: 150px;
+    height: 220px;
+  }
+  .img2 {
+    width: 300px;
+    height: 220px;
+  }
+}
+@media (max-width: 532px) {
   .container_div {
     flex-wrap: wrap;
   }
